@@ -21,10 +21,11 @@ SET Item_Fat_Content =
 
 -- Verify changes
 SELECT DISTINCT Item_Fat_Content FROM blinkitdata;
+```
 
 ## 📈 Key Performance Indicators (KPIs)
 
-
+```sql
 -- 1. Total Sales
 
 
