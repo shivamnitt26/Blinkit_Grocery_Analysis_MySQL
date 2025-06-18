@@ -21,3 +21,18 @@ SET Item_Fat_Content =
 
 -- Verify changes
 SELECT DISTINCT Item_Fat_Content FROM blinkitdata;
+
+## 📈 Key Performance Indicators (KPIs)
+```sql
+-- 1. Total Sales
+SELECT CONCAT(CAST(SUM(total_sales) / 1000000.00 AS DECIMAL(10,2)), ' Million') AS Total_Sales 
+FROM blinkitdata;
+
+-- 2. Average Sales
+SELECT ROUND(AVG(total_sales), 2) AS Avg_Sales 
+FROM blinkitdata;
+
+-- 3. Average Rating
+SELECT ROUND(AVG(rating), 2) AS Avg_Rating 
+FROM blinkitdata;
+
