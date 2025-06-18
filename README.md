@@ -24,7 +24,9 @@ SELECT DISTINCT Item_Fat_Content FROM blinkitdata;
 
 ## 📈 Key Performance Indicators (KPIs)
 
+
 -- 1. Total Sales
+
 ```sql
 SELECT CONCAT(CAST(SUM(total_sales) / 1000000.00 AS DECIMAL(10,2)), ' Million') AS Total_Sales 
 FROM blinkitdata;
@@ -35,7 +37,7 @@ SELECT ROUND(AVG(total_sales), 2) AS Avg_Sales
 FROM blinkitdata;
 
 -- 3. Average Rating
-```sql
+
 SELECT ROUND(AVG(rating), 2) AS Avg_Rating 
 FROM blinkitdata;
 
