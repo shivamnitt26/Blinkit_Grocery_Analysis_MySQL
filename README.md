@@ -93,5 +93,14 @@ SELECT `outlet type` AS Outlet_Type,
        ROUND(AVG(`Item Visibility`), 2) AS Avg_Item_Visibility 
 FROM blinkitdata 
 GROUP BY `outlet type`;
+```
+## 🎯 Objectives
+- Correlate Outlet Size with sales performance
+- Assess Location-wise sales performance
+- Analyze Fat Content Preference
+- Combine outlet metrics for multi-dimensional insights
 
+## 🛠️ Tools Used
+- SQL (MySQL)
+- CSV dataset (Blinkit)
 
