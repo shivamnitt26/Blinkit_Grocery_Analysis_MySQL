@@ -32,6 +32,9 @@ SELECT DISTINCT Item_Fat_Content FROM blinkitdata;
 SELECT CONCAT(CAST(SUM(total_sales) / 1000000.00 AS DECIMAL(10,2)), ' Million') AS Total_Sales 
 FROM blinkitdata;
 
+![1st](https://github.com/user-attachments/assets/896c2701-1ea9-4db1-b5a4-f79f75450b20)
+
+
 -- 2. Average Sales
 
 SELECT ROUND(AVG(total_sales), 2) AS Avg_Sales 
