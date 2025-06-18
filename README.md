@@ -43,9 +43,10 @@ SELECT ROUND(AVG(rating), 2) AS Avg_Rating
 FROM blinkitdata;
 ```
 
-```sql 
+
 ##  📈 Segment-Wise Sales Analysis
 
+```sql 
 -- A. Total Sales by Fat Content
 SELECT Item_fat_content AS Fat_Content, ROUND(SUM(total_sales), 2) AS Total_Sales 
 FROM blinkitdata 
